@@ -10,7 +10,7 @@ import AddAuthor from './components/AddAuthor';
 
 // Apollo client setup
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://readify-server.vercel.app/graphql',
   cache: new InMemoryCache(),
 });
 
